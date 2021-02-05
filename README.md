@@ -5,3 +5,5 @@ To run the application
 download the code
 make sure to have JDK 8 or higher
 run this command : mvnw spring-boot:run
+
+access http://localhost:8080
