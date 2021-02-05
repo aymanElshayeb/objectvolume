@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ObjectvolumeApplication {
+public class ObjectVolumeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ObjectvolumeApplication.class, args);
+		SpringApplication.run(ObjectVolumeApplication.class, args);
 	}
 
 }

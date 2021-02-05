@@ -9,7 +9,7 @@ import java.io.InputStream;
 @Service
 public class TransformService {
 
-    private double[][] convertToRGB(double[][] grayImage) {
+    public double[][] convertToRGB(double[][] grayImage) {
         //Here is a dummy . here we should use OpenCV to convert to RBG
         return grayImage;
     }
@@ -20,7 +20,7 @@ public class TransformService {
         return new PointCloud(rgbImage);
     }
 
-    private double[][] convertToArray(InputStream imageFile) {
+    public double[][] convertToArray(InputStream imageFile) {
        // Here is a dummy . we should use OpenCV to convert file to Array
         double image[][] = new double[3][3];
         return image;
